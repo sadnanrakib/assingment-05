@@ -1,17 +1,29 @@
-body{
-    /* background-color: black; */
-    
+main{
+    background-color:rgba(18, 17, 17, 0.941);
+    padding: 40px;
 }
 
 .text-color{
-    background-color: black;
     color:#FF5E19;
     text-align: center;
     font-size:76px;
-    line-height: 6;
+    line-height: 2;
     /* margin-top: 142px; */
-    margin-bottom: 74px;
+    /* margin-bottom: 74px; */
     font-family: 'Berkshire Swash', cursive;
-    height: 481px;
+    /* height: 481px; */
     
+}
+.text-color-p{
+    color: aliceblue;
+    width:50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+header{
+background-color: black;
+/* margin-bottom: 40px; */
+height: 300px;
 }
