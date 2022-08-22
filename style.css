@@ -1,0 +1,17 @@
+body{
+    /* background-color: black; */
+    
+}
+
+.text-color{
+    background-color: black;
+    color:#FF5E19;
+    text-align: center;
+    font-size:76px;
+    line-height: 6;
+    /* margin-top: 142px; */
+    margin-bottom: 74px;
+    font-family: 'Berkshire Swash', cursive;
+    height: 481px;
+    
+}
