@@ -36,7 +36,7 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Lionel Messi</h5>
                       
-                      <button id="leo-btn"  class="btn btn-primary mt-4 px-5">SELECT</button>
+                      <button  onclick="selectbtn(this)" class="btn btn-primary mt-4 px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -48,7 +48,7 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Neymar Jr</h5>
                       
-                      <button  class="btn btn-primary mt-4 px-5">SELECT</button>
+                      <button onclick="selectbtn(this)" class="btn btn-primary mt-4 px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -60,7 +60,7 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Kylian Mbappé</h5>
                       
-                      <button  class="btn btn-primary mt-4 px-5">SELECT</button>
+                      <button onclick="selectbtn(this)" class="btn btn-primary mt-4 px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -68,10 +68,10 @@
                <div class="col-3">
                 <div class="col">
                   <div class="card bg-dark">
-
+                    <h3 class="text-white text-center mt-2">Selected - V</h3>
 
                     <div class="body text-white">
-                        <ul id="myList">
+                        <ul id="select" class="text-center">
 
 
                         </ul>
@@ -87,7 +87,7 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Vítor Machado</h5>
                       
-                      <button  class="btn btn-primary mt-4 px-5">SELECT</button>
+                      <button onclick="selectbtn(this)" class="btn btn-primary mt-4 px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -99,7 +99,7 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Sergio Ramos</h5>
                       
-                      <button  class="btn btn-primary mt-4 px-5">SELECT</button>
+                      <button onclick="selectbtn(this)" class="btn btn-primary mt-4 px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -111,24 +111,45 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Renato Sanches</h5>
                       
-                      <button  class="btn btn-primary mt-4 px-5">SELECT</button>
+                      <button onclick="selectbtn(this)" class="btn btn-primary mt-4 px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
                </div>
                <div class="col-3">
                 <div class="col">
-                  <div class="card bg-dark">
+                  <div class="card">
                     <!-- <img src="images/Ramos.png" class="card-img-top" alt="..."> -->
-                    <div class="card-body text-white">
-                      <h3>Budget</h3>
-                      <p>Per Player <input type="text"></p>
-                      <button  class="btn btn-primary">Calculate</button>
-
-                      
-                      
-                      
-                    </div>
+                    <div class="budget">
+                      <div class="budgetAmount">
+                          <h6>Budget</h6>
+                      </div>
+                      <div class="per-player">
+                          <h3>Per Player</h3>
+                          <input id="per-player" type="number" value=""
+                              placeholder="Budget">
+                      </div>
+                      <button id="calculate" class="btn btn1">Calculate</button>
+                      <div class="per-player">
+                          <h2>Player Expenses <span> $<labeL id="expenses">000</labeL></span></h2>
+                      </div>
+                      <div class="per-player">
+                          <h3>Manager</h3>
+                          <input id="manager" type="number" value=""
+                              placeholder="Amount">
+                      </div>
+                      <div class="per-player">
+                          <h3>Coach</h3>
+                          <input id="coach" type="number" value=""
+                              placeholder="Amount">
+                      </div>
+                      <button id="calculate-total" class="btn btn3">Calculate
+                          Total</button>
+                      <div class="total">
+                          <h3>Total</h3>
+                          <p>$<span id="total">000</span></p>
+                      </div>
+                  </div>
                   </div>
                    
                                   
