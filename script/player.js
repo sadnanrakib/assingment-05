@@ -21,8 +21,8 @@ function selectbtn(cart) {
     `;
   select.appendChild(h6);
 
-  const button = cart.parentNode.childNodes[3];
-  button.disabled = true;
+  // const button = cart.parentNode.childNodes[3];
+  // button.disabled = true;
 }
 // player cart selection end
 
